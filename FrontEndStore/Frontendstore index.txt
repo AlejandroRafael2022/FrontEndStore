@@ -1,0 +1,190 @@
+PASO 1(HTML)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+PASO 2(HTML)<body>
+           <header class="header"> (Una vez que se agrega el HEADER hay que agregarlo en CSS)
+            <a href="index.html">
+             <img class="header__logo" src="imagenes/Fronden Store.png" alt="Logotipo">
+            </a>
+    </header>
+
+    <img src="Nombre de la imagen.jpg">
+
+    <div class="video">
+         <video src="Nombre de la carpeta/Nombre del vídeo que queremos agregar.mp4" controsl autoplay muted loop>
+         <source src="Nombre de la carpeta/Nombre del vídeo.mp4" type="video/mp4">
+         <source src="Nombre de la carpeta/Nombre del video.ogg" type="video/ogg">
+         <source src="Nombre de la carpeta/Nombre del video.webm" type="video/webm">
+         </video>
+
+
+    <nav class="navegacion"> (Al agregar NAVEGACION hay que agregar en CSS para darle estilos)
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+PASO 4(HMTL)<main class="contenedor"> (Se copia el contenido y se pega en otra página con el nombre que se le otorge y se enlasa a los archivos para que funcionen al seleccionarlos)
+        <h1>Nuestros Productos</h1>
+    </main>
+
+PASO 5(HTML)<div class="grid"> (Se agregan las imagenes, la información que se le quiera agregar y se copia y pega uno abajo del otro las veces que sean necesarias)
+        <div class="producto">
+            <a href="producto.html">
+                <img class="producto__imagen" src="imagenes/Remera gris lisa.jpg" alt="imagen camisa"> (Una vez que se agrega "Class="Producto__imagen" se agrega en el CSS para darle estilo)
+                <div class="producto__informacion"> (Una vez que se agrega "Class="producto__información" se agrega en el CSS para darle estilo)
+                    <p class="producto__nombre">VueJS</p> (Una vez que se agrega "Class="Producto__nombre" se agrega en el CSS para darle estilo)
+                    <p class="producto__precio">$25</p> (Una vez que se agrega "Class="Producto__precio" se agrega en el CSS para darle estilo)
+                </div>
+            </a>
+        </div>
+    </div> <!--.producto-->
+    <div class="producto">
+        <a href="producto.html">
+            <img class="producto__imagen" src="imagenes/Remera gris bob marley.jpg" alt="imagen camisa">
+            <div class="producto__informacion">
+                <p class="producto__nombre">AngularJS</p>
+                <p class="producto__precio">$25</p>
+            </div>
+        </a>
+    </div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera negra lisa.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">ReactJS</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera amarilla deportiva.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">Redux</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera gris autos.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">Node.js</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera negra la bonja.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">SASS</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera negra lisa.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">HTML5</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera violeta lisa.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">Github</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera roja lisa.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">BulmaCSS</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera blanca bank.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">TypeScript</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera cveleste stanford.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">Drupal</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera amarilla quik silver.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">JavaScript</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/remera_clasica_turquesa_1_1.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">GraphQL</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+<div class="producto">
+    <a href="producto.html">
+        <img class="producto__imagen" src="imagenes/Remera roja 58.jpg" alt="imagen camisa">
+        <div class="producto__informacion">
+            <p class="producto__nombre">WordPress</p>
+            <p class="producto__precio">$25</p>
+        </div>
+    </a>
+</div>
+</div> <!--.producto-->
+</div>
+
+PASO 3(HTML) <footer class="footer"> (Luego de agregarlo acá se agrega en HTML para darle estilo)
+                  <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+             </footer>
+             <script src="js/modernizr.js"></script> (Esto es para agregar JavaScript)
+             <script src="js/scripts"></script> (Esto es para agregar JavaScript)    
+    
+</body>
+</html>
